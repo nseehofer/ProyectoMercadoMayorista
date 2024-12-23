@@ -1,0 +1,24 @@
+Clases: MercadoMayorista, Producto, ProductoNoEncontradoException,
+Venta (¿Es un metodo o un atributo?), Factura.
+
+¿Como voy a manejar la cantidad de los productos? 
+
+[ Interfaz: 
+
+public interface Reportador { 
+public abstract String reportar(Factura factura); 
+}
+
+A partir de la cual se deberá entregar un reportador básico que 
+genere el texto de la factura. ]
+
+[Atributo de clase:
+
+MercadoMayorista: Stock de productos, Ventas(facturas).
+Producto: Id, Precio. 
+Factura: Precio unitario, Unidades de Cada Producto, Total del producto.
+Venta: Factura.
+
+]
+
+
